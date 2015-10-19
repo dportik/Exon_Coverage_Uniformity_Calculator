@@ -30,7 +30,7 @@ if exon diff between start/stop is >= 200 bp:
  
 
 For short exons 61-100 bp:
-if exon is >60 and if exon is <=100:
+if (exon is >60 and <=100):
 	1. start to (start+10) -> short_forward0_10bp.bed
 	2. (start+10) to (start+20) -> short_forward10_20bp.bed
 	3. (start+20) to (start+30) -> short_forward20_30bp.bed
