@@ -74,14 +74,25 @@ the script near the ******* below to include all samples, or decrease this numbe
 The 'All_out.txt' output has the average coverage for each exon edge bin across all samples
 included.  This can be used to generate box plots in R using the bin name as the factor.
 
-##############
-DEPENDENCIES:
-numpy - Numerical Python
-samtools - needs to be in path to call from command line
-##############
-------------------------
+------------------------------------------------------------------------------------------
+
 written for Python 2.7.3
-Dan Portik
-daniel.portik@berkeley.edu
-October 2015
+
+DEPENDENCIES:
+
+numpy - Numerical Python
+
+samtools - needs to be in path to call from command line
 ------------------------
+
+Dan Portik
+
+daniel.portik@berkeley.edu --> daniel.portik@uta.edu
+
+August 2015
+
+
+
+If you use these scripts, please cite:
+
+Portik, D.M., Smith, L.L., and K. Bi. 2016. An evaluation of transcriptome-based exon capture for frog phylogenomics across multiple scales of divergence (Class: Amphibia, Order: Anura). Molecular Ecology Resources 16: 1069–1083.
