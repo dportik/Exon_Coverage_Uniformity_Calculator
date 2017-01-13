@@ -83,6 +83,8 @@ DEPENDENCIES:
 numpy - Numerical Python
 
 samtools - needs to be in path to call from command line
+
+
 ------------------------
 
 Dan Portik
